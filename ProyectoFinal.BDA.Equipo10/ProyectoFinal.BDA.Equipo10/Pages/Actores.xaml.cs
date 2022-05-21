@@ -12,6 +12,8 @@ namespace ProyectoFinal.BDA.Equipo10.Pages
         public Actores()
         {
             InitializeComponent();
+            
+            //A continuacion se crea una nueva ObservableCollection, esto para poner a los actores, usaremos el Binding para mostrar los datos
 
             grupo = new ObservableCollection<Actor>
             {

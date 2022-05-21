@@ -2,6 +2,9 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProyectoFinal.BDA.Equipo10.Pages.AcercaDe">
+  
+  <!--En esta pagina llamada AcercaDe pondremos nuestros nombres-->
+  
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Trabajo Final de la Materia de Soluciones de Programación Móvil"

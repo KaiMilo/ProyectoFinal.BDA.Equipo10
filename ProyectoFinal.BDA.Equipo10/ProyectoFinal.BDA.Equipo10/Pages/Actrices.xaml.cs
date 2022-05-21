@@ -12,6 +12,9 @@ namespace ProyectoFinal.BDA.Equipo10.Pages
         public Actrices()
         {
             InitializeComponent();
+            
+            //A continuacion se crea una nueva ObservableCollection, esto para poner a las actrices, usaremos el Binding para mostrar los datos
+
 
             grupo2 = new ObservableCollection<Actriz>
             {

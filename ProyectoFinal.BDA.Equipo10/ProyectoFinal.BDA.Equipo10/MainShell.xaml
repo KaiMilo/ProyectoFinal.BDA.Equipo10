@@ -4,11 +4,16 @@
              xmlns:pages="clr-namespace:ProyectoFinal.BDA.Equipo10.Pages"
              x:Class="ProyectoFinal.BDA.Equipo10.MainShell">
 
-    
-    <!--El flyout-->
+    <!--Integrantes del equipo:
+    Karen Sarai Morales Montiel
+    Alan Bocardo Garza
+    Pedro Luis Gonzalez Cernuda
+    -->
+  
+    <!--Aqui construimos el flyout-->
 
     <FlyoutItem Title="Seleccion de genero" 
-                Shell.BackgroundColor="Red"
+                Shell.BackgroundColor="Red"     
                 Shell.TabBarTitleColor="White"
                 Shell.TabBarDisabledColor="AliceBlue">
         <ShellContent Title="Seleccion"

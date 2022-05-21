@@ -1,7 +1,19 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProyectoFinal.BDA.Equipo10.Pages.SeleccionDeGenero">
+
+    <ContentPage.Resources>
+        <Style TargetType="Button">
+            <Setter Property="FontFamily" Value="Baloo2-EB"/>
+            <Setter Property="FontSize" Value="Large"/>
+            <Setter Property="FontAttributes" Value="Bold"/>
+            <Setter Property="TextColor" Value="White"/>
+            <Setter Property="HeightRequest" Value="50"/>
+            <Setter Property="WidthRequest" Value="150"/>
+            <Setter Property="BackgroundColor" Value="DimGray"/>
+        </Style>
+    </ContentPage.Resources>
     <ContentPage.Content>
         <StackLayout HorizontalOptions="Center">
             <Label Text="Elige el genero"
@@ -10,22 +22,8 @@
                    TextColor="Black"/>
             <Button  x:Name="Actrices"
                 Text="Actrices"                   
-                    FontFamily="Baloo2-Normal"
-                    FontSize="Large"
-                    FontAttributes="Bold"
-                    BackgroundColor="DimGray"
-                    TextColor="White"
-                    HeightRequest="50"
-                    WidthRequest="150"
                     Clicked="Actrices_Clicked"/>
             <Button Text="Actores"                   
-                    FontFamily="Baloo2-Normal"
-                    FontSize="Large"
-                    FontAttributes="Bold"
-                    BackgroundColor="DimGray"
-                    TextColor="White"
-                      HeightRequest="50"
-                    WidthRequest="150"
                     Clicked="Actores_Clicked"/>
         </StackLayout>
     </ContentPage.Content>

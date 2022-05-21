@@ -20,7 +20,7 @@
                       Icon="selection.png"
                       ContentTemplate="{DataTemplate pages:SeleccionDeGenero}"/>
         <ShellContent Title="Trivia"
-                      Icon="Trivia" 
+                      Icon="trivia.png" 
                       ContentTemplate="{DataTemplate pages:Trivia}"/>
         <ShellContent Title="Menu"
                       Icon="menu.png"

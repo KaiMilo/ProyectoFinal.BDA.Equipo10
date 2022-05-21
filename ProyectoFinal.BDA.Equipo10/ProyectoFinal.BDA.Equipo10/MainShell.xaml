@@ -12,7 +12,7 @@
   
     <!--Aqui construimos el flyout-->
 
-    <FlyoutItem Title="Seleccion de genero" 
+    <FlyoutItem Title="Trabajo Final" 
                 Shell.BackgroundColor="Red"     
                 Shell.TabBarTitleColor="White"
                 Shell.TabBarDisabledColor="AliceBlue">

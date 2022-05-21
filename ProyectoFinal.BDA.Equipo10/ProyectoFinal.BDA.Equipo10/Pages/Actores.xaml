@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoFinal.BDA.Equipo10.Pages.Actores">
+
+    <StackLayout BackgroundColor="#395984">
+        <Frame BackgroundColor="#2196F3" >
+            <Label Text="Actores" HorizontalTextAlignment="Center" TextColor="White" FontSize="Large"/>
+        </Frame>
+        <StackLayout Margin="15">
+            <ListView x:Name="lsvGrupo" HasUnevenRows="True" 
+                  ItemTapped="lsvGrupo_ItemTapped">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame  Margin="8" CornerRadius="10" Padding="10">
+                                <StackLayout Orientation="Horizontal">
+                                    <Image Source="{Binding Foto}" WidthRequest="60" HeightRequest="60"/>
+                                    <StackLayout Padding="15,0,0,0">
+                                        <Label Text="{Binding Nombre}" FontFamily="Baloo2-EB" FontSize="Medium" FontAttributes="Bold"/>
+                                        <Label Text="{Binding Desc}" FontFamily="Baloo2-Normal" FontSize="Small"/>
+                                    </StackLayout>
+                                </StackLayout>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </StackLayout>
+
+
+</ContentPage>

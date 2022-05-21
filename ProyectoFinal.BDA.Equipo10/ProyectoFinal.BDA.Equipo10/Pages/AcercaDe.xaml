@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoFinal.BDA.Equipo10.Pages.AcercaDe">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Trabajo Final de la Materia de Soluciones de Programación Móvil"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="Center" 
+                 FontSize="Title"
+                   FontFamily="Baloo2-EB"
+                   TextColor="Black"/>
+            <Image Source="cine.png"
+                   HeightRequest="200"
+                   WidthRequest="200"/>
+            <Label Text="Karen Sarai Morales Montiel"
+                             VerticalOptions="StartAndExpand"
+                             HorizontalOptions="CenterAndExpand"
+                             FontSize="Large"
+                             FontFamily="Baloo2-Normal"
+                             TextColor="Black"/>
+            <Label Text="Alan Bocardo Garza"
+                   VerticalOptions="StartAndExpand"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="Large"
+                   FontFamily="Baloo2-Normal"
+                   TextColor="Black"/>
+
+            <Label Text="Pedro Luis Gonzalez Cernuda"
+                   VerticalOptions="StartAndExpand"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="Large"
+                   FontFamily="Baloo2-Normal"
+                   TextColor="Black"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage> 

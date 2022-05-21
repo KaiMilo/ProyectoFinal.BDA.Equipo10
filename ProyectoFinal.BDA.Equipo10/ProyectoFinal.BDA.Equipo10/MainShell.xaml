@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:pages="clr-namespace:ProyectoFinal.BDA.Equipo10.Pages"
+             x:Class="ProyectoFinal.BDA.Equipo10.MainShell">
+
+    
+    <!--El flyout-->
+
+    <FlyoutItem Title="Seleccion de genero" 
+                Shell.BackgroundColor="Red"
+                Shell.TabBarTitleColor="White"
+                Shell.TabBarDisabledColor="AliceBlue">
+        <ShellContent Title="Seleccion"
+                      Icon="selection.png"
+                      ContentTemplate="{DataTemplate pages:SeleccionDeGenero}"/>
+        <ShellContent Title="Trivia"
+                      Icon="Trivia" 
+                      ContentTemplate="{DataTemplate pages:Trivia}"/>
+        <ShellContent Title="Menu"
+                      Icon="menu.png"
+                      ContentTemplate="{DataTemplate pages:Menu}"/>
+        <ShellContent Title="Acerca de"
+                      Icon="about.png"
+                      ContentTemplate="{DataTemplate pages:AcercaDe}"/>
+    </FlyoutItem>
+
+</Shell>

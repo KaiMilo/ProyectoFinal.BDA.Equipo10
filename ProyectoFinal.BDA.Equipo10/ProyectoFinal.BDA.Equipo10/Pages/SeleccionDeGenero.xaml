@@ -2,8 +2,9 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProyectoFinal.BDA.Equipo10.Pages.SeleccionDeGenero">
-
+<!--Estilos de la página-->
     <ContentPage.Resources>
+        <!--Estilos para los botones-->
         <Style TargetType="Button">
             <Setter Property="FontFamily" Value="Baloo2-EB"/>
             <Setter Property="FontSize" Value="Large"/>
@@ -15,11 +16,14 @@
         </Style>
     </ContentPage.Resources>
     <ContentPage.Content>
+        <!--Contenido de la página-->
+        <!--Primero la inficaciones-->
         <StackLayout HorizontalOptions="Center">
             <Label Text="Elige el genero"
                    FontFamily="Baloo2-EB"
                    FontSize="Title"
                    TextColor="Black"/>
+            <!--Opciones posibles-->
             <Button  x:Name="Actrices"
                 Text="Actrices"                   
                     Clicked="Actrices_Clicked"/>

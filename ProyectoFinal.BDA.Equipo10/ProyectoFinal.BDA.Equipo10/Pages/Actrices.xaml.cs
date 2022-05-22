@@ -31,8 +31,15 @@ namespace ProyectoFinal.BDA.Equipo10.Pages
             lsvGrupo2.ItemsSource = grupo2;
 
         }
-        private void lsvGrupo2_ItemTapped(object sender, ItemTappedEventArgs e)
+        //CUando se presiona se abre la página Descripcion_Actriz con el item seleccionado
+        private async void lsvGrupo2_ItemTapped(object sender, ItemTappedEventArgs e)
         {
+
+            Actriz item = (Actriz)e.Item;
+            if (item != null)
+            {
+                await Navigation.PushAsync(new Descripcion_Actriz(item));
+            }
 
         }
     }

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoFinal.BDA.Equipo10.Pages.Descripcion">
+    <!--Descripcion para el actor seleccionado-->
+    <ContentPage.Content>
+        <ScrollView HeightRequest="30000">
+            <StackLayout BackgroundColor=" 	#800000">
+                <!--Nombre del actor-->
+                <Label x:Name="Nombre" FontSize="25"
+                HorizontalTextAlignment="Center"
+                FontFamily="Baloo2-EB"
+                TextColor="White"/>
+                <!--Foto del actor-->
+                <Frame BackgroundColor="Red" CornerRadius="20" Margin="20">
+                    <Image x:Name="Image" />
+                </Frame>
+                <Frame BackgroundColor="White" CornerRadius="10" Margin="5">
+                    <Label x:Name="Desc" TextColor="Black" FontFamily="Baloo2-Normal" FontSize="Medium"/>
+                </Frame>
+                <!--Descripcion del actor-->
+            </StackLayout>
+        </ScrollView>
+
+
+    </ContentPage.Content>
+</ContentPage>

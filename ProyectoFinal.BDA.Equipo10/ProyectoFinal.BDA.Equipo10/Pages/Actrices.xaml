@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProyectoFinal.BDA.Equipo10.Pages.Actrices">
 
-    <StackLayout BackgroundColor="#395984">
-        <Frame BackgroundColor="#2196F3" >
+    <StackLayout BackgroundColor="White">
+        <Frame BackgroundColor="Red" >
             <Label Text="Actrices" HorizontalTextAlignment="Center" TextColor="White" FontSize="Large"/>
         </Frame>
         <StackLayout Margin="15">
@@ -15,10 +15,13 @@
                         <ViewCell>
                             <Frame  Margin="8" CornerRadius="10" Padding="10">
                                 <StackLayout Orientation="Horizontal">
+                                    <!--Foto del actor-->
                                     <Image Source="{Binding Foto}" WidthRequest="60" HeightRequest="60"/>
                                     <StackLayout Padding="15,0,0,0">
-                                        <Label Text="{Binding Nombre}" FontFamily="Baloo2-EB" FontSize="Medium" FontAttributes="Bold"/>
-                                        <Label Text="{Binding Desc}" FontFamily="Baloo2-Normal" FontSize="Small"/>
+                                        <!--Nombre del actor-->
+                                        <Label Text="{Binding Nombre}" FontFamily="Baloo2-EB" FontSize="Medium" FontAttributes="Bold" TextColor="Black"/>
+                                        <!--Desc del actor-->
+                                        <Label Text="{Binding Desc}" FontFamily="Baloo2-Normal" FontSize="Small" TextColor="Black"/>
                                     </StackLayout>
                                 </StackLayout>
                             </Frame>

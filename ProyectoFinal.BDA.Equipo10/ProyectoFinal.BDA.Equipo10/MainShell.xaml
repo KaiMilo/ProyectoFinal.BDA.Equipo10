@@ -9,25 +9,40 @@
     Alan Bocardo Garza
     Pedro Luis Gonzalez Cernuda
     -->
-  
+
     <!--Aqui construimos el flyout-->
+
+
+<!-- Primero creamis un Flyout Item "Vacío", no liga nada y dentro de el ponemos
+    las opciones de la tapbar-->
+
+
 
     <FlyoutItem Title="Trabajo Final" 
                 Shell.BackgroundColor="Red"     
                 Shell.TabBarTitleColor="White"
                 Shell.TabBarDisabledColor="AliceBlue">
-        <ShellContent Title="Seleccion"
-                      Icon="selection.png"
-                      ContentTemplate="{DataTemplate pages:SeleccionDeGenero}"/>
-        <ShellContent Title="Trivia"
-                      Icon="trivia.png" 
-                      ContentTemplate="{DataTemplate pages:Trivia}"/>
+ <!--Aquí va el tapbar-->
         <ShellContent Title="Menu"
                       Icon="menu.png"
+                      
                       ContentTemplate="{DataTemplate pages:Menu}"/>
         <ShellContent Title="Acerca de"
                       Icon="about.png"
                       ContentTemplate="{DataTemplate pages:AcercaDe}"/>
+    </FlyoutItem>
+    <!-- Luego ponemos las opciones del flyout-->
+    <FlyoutItem Title="Seleccion de Genero" Icon="selection.png"
+                Shell.BackgroundColor="Red"     
+                Shell.TabBarTitleColor="White"
+                Shell.TabBarDisabledColor="AliceBlue">
+        <ShellContent Title="Seleccion de Genero"  ContentTemplate="{DataTemplate pages:SeleccionDeGenero}"/>
+    </FlyoutItem>
+    <FlyoutItem Title="Trivia" Icon="trivia"
+                Shell.BackgroundColor="Red"     
+                Shell.TabBarTitleColor="White"
+                Shell.TabBarDisabledColor="AliceBlue">
+        <ShellContent Title="Trivia"  ContentTemplate="{DataTemplate pages:Trivia}" />
     </FlyoutItem>
 
 </Shell>

@@ -1,41 +1,45 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProyectoFinal.BDA.Equipo10.Pages.AcercaDe">
-  
-  <!--En esta pagina llamada AcercaDe pondremos nuestros nombres-->
-  
+    <!--Acerca De, la página con nuestra información-->
+        <ContentPage.Resources>
+            <!--Estilo de los nombres-->
+            <Style x:Key="NombresStyle" TargetType="Label">
+                <Setter Property="VerticalOptions" Value="StartAndExpand"/>
+                <Setter Property="HorizontalOptions" Value="CenterAndExpand"/>
+                <Setter Property="FontSize" Value="Large"/>
+                <Setter Property="FontFamily" Value="Baloo2-Normal"/>
+            <Setter Property="TextColor" Value="Black"/>
+        </Style>
+            <!--Estilo del titulo-->
+        <Style x:Key="Title" TargetType="Label">
+            <Setter Property="VerticalOptions" Value="StartAndExpand"/>
+            <Setter Property="HorizontalOptions" Value="Center"/>
+            <Setter Property="FontSize" Value="Title"/>
+            <Setter Property="FontFamily" Value="Baloo2-EB"/>
+            <Setter Property="TextColor" Value="Black"/>
+        </Style>
+            <!--Estilo de la imagen-->
+        <Style TargetType="Image">
+            <Setter Property="HeightRequest" Value="200"/>
+            <Setter Property="WidthRequest" Value="200"/>
+        </Style>
+        </ContentPage.Resources>
     <ContentPage.Content>
         <StackLayout>
+            <!--Titulo del trabajo-->
             <Label Text="Trabajo Final de la Materia de Soluciones de Programación Móvil"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="Center" 
-                 FontSize="Title"
-                   FontFamily="Baloo2-EB"
-                   TextColor="Black"/>
-            <Image Source="cine.png"
-                   HeightRequest="200"
-                   WidthRequest="200"/>
+                Style="{StaticResource Title}"/>
+            <!--Imagen de cine-->
+            <Image Source="cine.png"/>
+            <!--Nombres de los integrantes-->
             <Label Text="Karen Sarai Morales Montiel"
-                             VerticalOptions="StartAndExpand"
-                             HorizontalOptions="CenterAndExpand"
-                             FontSize="Large"
-                             FontFamily="Baloo2-Normal"
-                             TextColor="Black"/>
+                   Style="{StaticResource NombresStyle}"/>
             <Label Text="Alan Bocardo Garza"
-                   VerticalOptions="StartAndExpand"
-                   HorizontalOptions="CenterAndExpand"
-                   FontSize="Large"
-                   FontFamily="Baloo2-Normal"
-                   TextColor="Black"/>
-
+                   Style="{StaticResource NombresStyle}"/>
             <Label Text="Pedro Luis Gonzalez Cernuda"
-                   VerticalOptions="StartAndExpand"
-                   HorizontalOptions="CenterAndExpand"
-                   FontSize="Large"
-                   FontFamily="Baloo2-Normal"
-                   TextColor="Black"/>
-
+                   Style="{StaticResource NombresStyle}"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage> 

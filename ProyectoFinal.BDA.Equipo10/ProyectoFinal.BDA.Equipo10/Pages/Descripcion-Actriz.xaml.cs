@@ -1,4 +1,4 @@
-﻿using ProyectoFinal.BDA.Equipo10.DataModel;
+using ProyectoFinal.BDA.Equipo10.DataModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +9,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 namespace ProyectoFinal.BDA.Equipo10.Pages
+//Describe la actriz
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Descripcion_Actriz : ContentPage

@@ -25,7 +25,7 @@ namespace ProyectoFinal.BDA.Equipo10.Pages
             new Actor{ Nombre = "Harrison Ford", Foto = "actor8.jpg", Desc = "Harrison Ford es un actor estadounidense de cine y televisión. Debe su notoriedad a su colaboración con el guionista, productor y director George Lucas, que fue el primero en darle la posibilidad de ser actor. Sus papeles de Han Solo en la saga de Star Wars y de Indiana Jones lo elevaron al nivel de estrella internacional. ", LargeDesc= "Harrison Ford (Chicago, Illinois, 13 de julio de 1942) es un actor estadounidense de cine y televisión. Debe su notoriedad a su colaboración con el guionista, productor y director George Lucas, que fue el primero en darle la posibilidad de ser actor. Sus papeles de Han Solo en la saga de Star Wars y de Indiana Jones lo elevaron al nivel de estrella internacional. Aunque un fracaso inicial en taquilla, la película de Ridley Scott Blade Runner, donde desempeña el papel del cazador de replicantes Rick Deckard, terminó convirtiéndose en una película de culto de la ciencia ficción. Con más de cinco mil seiscientos millones de dólares recaudados en todo el mundo por sus películas, Ford es el actor con mayores ingresos en taquilla de la historia.1 En 1998 fue elegido, con cincuenta y seis años, el hombre vivo más sexy del mundo por la revista estadounidense People,2 y en 1995 por la británica Empire como uno de los cien actores más sexy de la historia (en el 15.º puesto)."},
             };
 
-// Se estable de donde sale el itemsource
+            // Se estable de donde sale el itemsource
             lsvGrupo.ItemsSource = grupo;
 
 

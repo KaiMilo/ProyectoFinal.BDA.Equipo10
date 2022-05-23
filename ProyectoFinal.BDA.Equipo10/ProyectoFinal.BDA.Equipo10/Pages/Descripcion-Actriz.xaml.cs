@@ -22,7 +22,7 @@ namespace ProyectoFinal.BDA.Equipo10.Pages
             //SE ponen los datos correspondientes para que se muestre el actor en la pantalla
             Nombre.Text = act1.Nombre;
             Image.Source = act1.Foto;
-            Desc.Text = act1.Desc;
+            Desc.Text = act1.LargeDesc;
         }
     }
 }

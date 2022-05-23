@@ -17,8 +17,8 @@
     </ContentPage.Resources>
     <ContentPage.Content>
         <!--Contenido de la página-->
-        <!--Primero la inficaciones-->
-        <StackLayout HorizontalOptions="Center">
+        <!--Primero la indicacion-->
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
             <Label Text="Elige el genero"
                    FontFamily="Baloo2-EB"
                    FontSize="Title"

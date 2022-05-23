@@ -4,9 +4,10 @@
 
     public class Actriz
     {
-        public string Nombre { get; set; }
+                public string Nombre { get; set; }
         public string Foto { get; set; }
         public string Desc { get; set; }
+        public string LargeDesc {get; set;}
 
     }
 }

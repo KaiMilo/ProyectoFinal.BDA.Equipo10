@@ -18,9 +18,10 @@
                     <Image x:Name="Image" />
                 </Frame>
                 <Frame BackgroundColor="White" CornerRadius="10" Margin="5">
+                                  <!--Descripcion del actor-->
                     <Label x:Name="Desc" TextColor="Black" FontFamily="Baloo2-Normal" FontSize="Medium"/>
                 </Frame>
-                <!--Descripcion del actor-->
+
             </StackLayout>
         </ScrollView>
       

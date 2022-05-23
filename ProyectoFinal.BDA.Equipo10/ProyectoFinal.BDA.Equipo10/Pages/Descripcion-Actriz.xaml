@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProyectoFinal.BDA.Equipo10.Pages.Descripcion_Actriz">
     <!--Descripcion para el actor seleccionado-->
 
     <ContentPage.Content>
-        <ScrollView HeightRequest="30000">
+        <ScrollView HeightRequest="300000">
             <StackLayout BackgroundColor=" 	#800000">
 
                 <!--Nombre del actor-->
@@ -18,12 +18,10 @@
                     <Image x:Name="Image" />
                 </Frame>
                 <Frame BackgroundColor="White" CornerRadius="10" Margin="5">
-                                  <!--Descripcion del actor-->
+                    <!--Descripcion del actor-->
                     <Label x:Name="Desc" TextColor="Black" FontFamily="Baloo2-Normal" FontSize="Medium"/>
                 </Frame>
-
             </StackLayout>
         </ScrollView>
-      
     </ContentPage.Content>
 </ContentPage>
